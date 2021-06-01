@@ -1,0 +1,46 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  padding-top: 3rem;
+  min-height: 400px;
+}
+.jumbotron {
+  background-image: url(img/hero.jpg);
+  min-height: 400px;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.jumbotron .container h1 {
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.jumbotron .container h1 span {
+  font-size: 3rem;
+}
+
+.jumbotron .container p.lead {
+  font-size: 1.9em;
+  margin-bottom: 0px;
+}
+
+.jumbotron .container p span {
+  background-color: burlywood;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#services,
+#contact {
+  background-color: #e3f2fd;
+}
+
+footer p a {
+  color: inherit;
+  text-decoration: none;
+}
