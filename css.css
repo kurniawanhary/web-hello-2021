@@ -5,9 +5,13 @@
 }
 
 section {
-  padding-top: 6rem;
+  padding-top: 3rem;
   min-height: 400px;
   background-color: #e3f2fd;
+}
+
+section .container h2 {
+  margin-top: 2em;
 }
 
 section .container p {
